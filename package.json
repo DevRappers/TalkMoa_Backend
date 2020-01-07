@@ -1,0 +1,24 @@
+{
+    "name": "TalkMoa_Backend",
+    "version": "1.0.0",
+    "description": "talkmoa backend ( Node.js + express + REST )",
+    "repository": "https://github.com/DevRappers/TalkMoa_Backend",
+    "author": "DevRappers <devrappers@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/node": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "morgan": "^1.9.1",
+        "mysql": "^2.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    },
+    "scripts": {
+        "dev": "nodemon --exec babel-node src/server.js"
+    }
+}
